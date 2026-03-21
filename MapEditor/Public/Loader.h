@@ -1,0 +1,50 @@
+#pragma once
+#include "Base.h"
+#include "MapEditor_Define.h"
+
+BEGIN(Engine)
+class CGameInstance;
+class CVIBuffer_Instancing_Mesh;
+END
+
+BEGIN(MapEditor)
+
+class CLoader final : public CBase
+{
+private:
+	CLoader(_dev pDevice, _context pContext);
+	virtual ~CLoader() = default;
+
+public:
+	HRESULT Init(LEVEL_ID eNextLevel);
+	HRESULT Begin_Thread();
+	HRESULT End_Thread();
+	HRESULT Show_LoadingText();
+	_bool isFinished();
+
+public:
+	HRESULT Loading_LevelResources();
+
+
+private:
+	_dev m_pDevice{ nullptr };
+	_context m_pContext{ nullptr };
+	CGameInstance* m_pGameInstance{ nullptr };
+	LEVEL_ID m_eNextLevel{ LEVEL_END };
+	wstring m_strLoadingText{};
+	_bool m_isFinished{ false };
+
+private:
+	HANDLE m_hThread{};
+	CRITICAL_SECTION m_Critical_Section{};
+
+private:
+
+	HRESULT Load_Editor();
+
+public:
+	static CLoader* Create(_dev pDevice, _context pContext, LEVEL_ID eNextLevel);
+	virtual void Free() override;
+};
+
+END

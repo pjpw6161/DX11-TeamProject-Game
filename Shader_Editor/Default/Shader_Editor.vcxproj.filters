@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{cbbf81f0-842f-4954-9270-44f05f9589c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="98.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="98.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{bd000cb9-c759-4f71-b3d0-76643b9833af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{cab95573-ad8f-499d-8cff-a232f05fbca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{7d21a01f-14d9-494f-81dd-0172cab9c068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.ShaderEdit">
+      <UniqueIdentifier>{9724b613-04cf-4132-a2dc-a4ec472300f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.Camera">
+      <UniqueIdentifier>{5e776041-5627-42c6-9841-66573179e273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui">
+      <UniqueIdentifier>{14b58a20-f9cc-49f3-aaf6-895bc72729c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\ImGui_Mgr">
+      <UniqueIdentifier>{8b4d675f-86b0-483e-927e-ee8087cfd2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\ImGui_Default">
+      <UniqueIdentifier>{73342877-9339-434e-a171-6db00525e709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading">
+      <UniqueIdentifier>{72a46b8a-43ee-4113-8bdf-f0d8a72973ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading\Loader">
+      <UniqueIdentifier>{aea4f7c4-db44-47b0-8f03-86ca035d146d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Level_Test">
+      <UniqueIdentifier>{40ecdb8f-373b-478a-a90d-6c3fcece8a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain">
+      <UniqueIdentifier>{1e4bebba-31c1-478a-b169-4b11466ad48f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.Player">
+      <UniqueIdentifier>{caa5e8bb-b101-4ded-9dda-7fecc1204f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03.Map">
+      <UniqueIdentifier>{21501850-9adf-4ff7-9605-18f62a09422a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03.Map\SelectMap">
+      <UniqueIdentifier>{d01e7b85-0d60-4d9c-9a2c-7421862a7745}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>98.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Editor.h">
+      <Filter>98.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>98.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shader_Define.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ShaderEdit.h">
+      <Filter>00.ShaderEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shader_Camera.h">
+      <Filter>02.GameObjects\00.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shader_Loading.h">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shader_Loader.h">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Test.h">
+      <Filter>01.Levels\00.Level_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui_Mgr.h">
+      <Filter>03.ImGui\ImGui_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_internal.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imstb_rectpack.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imstb_textedit.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imstb_truetype.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imconfig.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_impl_dx11.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_impl_win32.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shader_Player.h">
+      <Filter>02.GameObjects\02.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shader_Terrain.h">
+      <Filter>02.GameObjects\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Select_Map.h">
+      <Filter>02.GameObjects\03.Map\SelectMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>98.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Editor.cpp">
+      <Filter>98.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ShaderEdit.cpp">
+      <Filter>00.ShaderEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shader_Camera.cpp">
+      <Filter>02.GameObjects\00.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shader_Loading.cpp">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shader_Loader.cpp">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Test.cpp">
+      <Filter>01.Levels\00.Level_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGui_Mgr.cpp">
+      <Filter>03.ImGui\ImGui_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_tables.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_widgets.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_demo.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_draw.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_impl_dx11.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_impl_win32.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shader_Player.cpp">
+      <Filter>02.GameObjects\02.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shader_Terrain.cpp">
+      <Filter>02.GameObjects\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Select_Map.cpp">
+      <Filter>02.GameObjects\03.Map\SelectMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Shader_Editor.rc">
+      <Filter>98.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>98.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="Shader_Editor.ico">
+      <Filter>98.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

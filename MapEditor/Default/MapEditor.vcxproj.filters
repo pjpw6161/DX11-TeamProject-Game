@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{5ffb1d1b-f5e1-48d1-9cc7-07129668e201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Headers">
+      <UniqueIdentifier>{4b222f7d-d5e7-4393-a921-861d24e0e5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{103818a9-24ec-46a2-8cb2-ad6a936ea085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{984dde03-3237-4a4f-8ec5-dadfbe8c32bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{51a36339-0436-4cb5-8245-7decde94bf8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Editor">
+      <UniqueIdentifier>{a09ad74a-fb84-4c45-a3ba-bf10b46995d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading">
+      <UniqueIdentifier>{c7a261b8-4a2b-493a-8f55-356c4d79bc10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.UI">
+      <UniqueIdentifier>{546204d1-1c76-4334-a3cd-03e758fc35c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Camera">
+      <UniqueIdentifier>{768fe191-560c-4692-b2ba-7cf87fd57fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.Terrain">
+      <UniqueIdentifier>{d134ce4b-9920-48b8-bfab-a00a3706104e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Shaders">
+      <UniqueIdentifier>{cfe40b6c-41a8-437c-80c1-25bf94cdf55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading\Loader">
+      <UniqueIdentifier>{2493c01f-df6e-4fc7-988e-3d6265abf99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Camera\Debug">
+      <UniqueIdentifier>{578855b6-a44d-4152-8c40-2f6d17189fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Camera\Main">
+      <UniqueIdentifier>{dc2fe401-0572-4995-b515-1034a0826de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui">
+      <UniqueIdentifier>{0bab56f4-7b01-4cb0-9dc6-c9ad81fbcca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\ImGui_Default">
+      <UniqueIdentifier>{4b35f002-3227-4f99-a088-0a4b380d3f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\ImGui">
+      <UniqueIdentifier>{67fbdbe7-fa8b-4117-8393-70b632abde0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\04.Map">
+      <UniqueIdentifier>{f75f0902-c959-40da-9489-38ba53db547e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03.Dummy">
+      <UniqueIdentifier>{1d422567-eac4-4b76-b5d4-85fd2f25bbb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Camera\CutScene">
+      <UniqueIdentifier>{069698c7-1d81-446e-8b8c-25bbd13077b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Camera\CutScene\Section">
+      <UniqueIdentifier>{7170ddd5-ae85-40a1-acbe-16dc5036679f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Camera\CutScene\Point">
+      <UniqueIdentifier>{ad41c511-0e25-4faa-ae92-8942a39c922c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Camera\Manager">
+      <UniqueIdentifier>{3eb84866-2142-479e-ba39-d31d38a191ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\MapEditor_Define.h">
+      <Filter>99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Debug.h">
+      <Filter>02.GameObjects\01.Camera\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Main.h">
+      <Filter>02.GameObjects\01.Camera\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Editor.h">
+      <Filter>01.Levels\00.Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditor.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\ImSequencer.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imstb_rectpack.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imstb_textedit.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imstb_truetype.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\ImZoomSlider.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\GraphEditor.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imconfig.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\ImCurveEdit.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\ImGradient.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_impl_dx11.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_impl_win32.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_internal.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\ImGuizmo.h">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui_Manager.h">
+      <Filter>03.ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02.GameObjects\02.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dummy.h">
+      <Filter>02.GameObjects\03.Dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Map.h">
+      <Filter>02.GameObjects\04.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CutScene_Curve.h">
+      <Filter>02.GameObjects\01.Camera\CutScene\Section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_CutScene.h">
+      <Filter>02.GameObjects\01.Camera\CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CutScene_Point.h">
+      <Filter>02.GameObjects\01.Camera\CutScene\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Manager.h">
+      <Filter>02.GameObjects\01.Camera\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Debug.cpp">
+      <Filter>02.GameObjects\01.Camera\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Main.cpp">
+      <Filter>02.GameObjects\01.Camera\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Editor.cpp">
+      <Filter>01.Levels\00.Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditor.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\ImSequencer.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\GraphEditor.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\ImCurveEdit.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\ImGradient.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_demo.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_draw.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_impl_dx11.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_impl_win32.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_tables.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_widgets.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\ImGuizmo.cpp">
+      <Filter>03.ImGui\ImGui_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGui_Manager.cpp">
+      <Filter>03.ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02.GameObjects\02.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dummy.cpp">
+      <Filter>02.GameObjects\03.Dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Map.cpp">
+      <Filter>02.GameObjects\04.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CutScene_Point.cpp">
+      <Filter>02.GameObjects\01.Camera\CutScene\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CutScene_Curve.cpp">
+      <Filter>02.GameObjects\01.Camera\CutScene\Section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_CutScene.cpp">
+      <Filter>02.GameObjects\01.Camera\CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Manager.cpp">
+      <Filter>02.GameObjects\01.Camera\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapEditor.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="MapEditor.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vtxtex.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vtxtex_Instancing.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vtxtex_Trail.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Water.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Deferred.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxColor.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCubeTex.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Curve.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxStatMesh_Instance.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxStatMesh.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97.Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\ShaderFiles\Engine_Shader_Define.hlsli">
+      <Filter>97.Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

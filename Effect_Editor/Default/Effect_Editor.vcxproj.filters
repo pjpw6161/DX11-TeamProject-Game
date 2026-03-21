@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{9232c94b-58e2-4737-b710-b7eded543294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.APP">
+      <UniqueIdentifier>{be360846-6c59-49fc-9a64-2bac5991eb3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{113291d3-84e0-4f07-90c6-c55f851c0fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Imgui">
+      <UniqueIdentifier>{2da7ffd1-410d-4025-b174-c0eb1a9fc7e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Imgui\Imgui">
+      <UniqueIdentifier>{09d4aaa2-7fb0-4059-90f1-ee5daa2e7674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Objects">
+      <UniqueIdentifier>{0f987cc4-0538-4fc0-ab3f-a963c95d2f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Objects\Dummy">
+      <UniqueIdentifier>{4775e5a6-f449-4e92-ac1d-d27a138d0179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Camera">
+      <UniqueIdentifier>{d7d0ba50-f55b-4da1-b0fc-6d0fcfa7e182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Terrain">
+      <UniqueIdentifier>{a6e94067-471e-4102-bff7-b78e0d179676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Objects\BackGround">
+      <UniqueIdentifier>{cf434f9e-1ab6-4074-bcbe-96f25689c93a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_Editor.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EffectApp.h">
+      <Filter>00.APP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Define.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Imgui_Manager.h">
+      <Filter>97.Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LoadingImg.h" />
+    <ClInclude Include="..\Public\Imgui\imgui_impl_dx11.h">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Imgui\imgui_impl_win32.h">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Imgui\imgui_internal.h">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Imgui\imstb_rectpack.h">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Imgui\imstb_textedit.h">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Imgui\imstb_truetype.h">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Imgui\imconfig.h">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Imgui\imgui.h">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_Dummy.h">
+      <Filter>02.Objects\Dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Main.h">
+      <Filter>01.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>03.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Select_Map.h">
+      <Filter>03.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround_Effect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Effect_Editor.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Effect_Editor.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Effect_Editor.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EffectApp.cpp">
+      <Filter>00.APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Imgui_Manager.cpp">
+      <Filter>97.Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LoadingImg.cpp" />
+    <ClCompile Include="..\Public\Imgui\imgui_impl_dx11.cpp">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Imgui\imgui_impl_win32.cpp">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Imgui\imgui_tables.cpp">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Imgui\imgui_widgets.cpp">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Imgui\imgui.cpp">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Imgui\imgui_demo.cpp">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Imgui\imgui_draw.cpp">
+      <Filter>97.Imgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_Dummy.cpp">
+      <Filter>02.Objects\Dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Main.cpp">
+      <Filter>01.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>03.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Select_Map.cpp">
+      <Filter>03.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround_Effect.cpp" />
+  </ItemGroup>
+</Project>

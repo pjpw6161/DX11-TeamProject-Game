@@ -1,0 +1,1 @@
+//inventype|itemtype(top/hand/sword/bow/ingredient/potion등)|아이템이름|티어|공격력방어력체력이동속도마나회복량 구입가 판매가 

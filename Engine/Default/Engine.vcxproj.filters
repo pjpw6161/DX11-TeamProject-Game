@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.System">
+      <UniqueIdentifier>{9f87076e-0831-4999-840b-c0fb1a618e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility">
+      <UniqueIdentifier>{93e16e3b-edfb-4e97-af12-da307e7b0a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\99.SuperClass">
+      <UniqueIdentifier>{ca35efa4-3510-49f5-9cc1-0a4b58695cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99,Headers">
+      <UniqueIdentifier>{68e2d0e1-c22f-4f72-b418-6f3a0e7d1e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\00.GameInstance">
+      <UniqueIdentifier>{a6ea5a43-1b0b-4656-9524-af423e150cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.System\00.Graphic_Device">
+      <UniqueIdentifier>{c0351cb2-0fe7-4257-8868-1ddefb349f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\01.Levels">
+      <UniqueIdentifier>{1795e195-2e03-41c0-820f-53c8f4390813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\01.Levels\Manager">
+      <UniqueIdentifier>{b7f8fc30-251c-4940-80bc-b4200fd5f6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02.GameObjects">
+      <UniqueIdentifier>{f8068654-6db4-477e-a95f-d62af853acfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components">
+      <UniqueIdentifier>{e5ef7994-e42b-4cb4-bf6c-2c091cf6c47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02.GameObjects\Manager">
+      <UniqueIdentifier>{3f52104d-0b4c-4e77-9a72-5de7df26c4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Manager">
+      <UniqueIdentifier>{38d42a99-0546-4bc0-aff4-606f4b001fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Renderer">
+      <UniqueIdentifier>{a876a318-a1ca-4b57-9a09-7f5f3b975fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02.GameObjects\Manager\Layer">
+      <UniqueIdentifier>{c2a0f2dc-34bb-4659-a6f3-1935f1f3bfae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02.GameObjects\BlendObjects">
+      <UniqueIdentifier>{45ffad70-c4c3-4fb9-8fdb-c016df61866f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer">
+      <UniqueIdentifier>{fa92c3a7-bf85-4acd-87c2-825bb3ca420d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Rect">
+      <UniqueIdentifier>{555ef07a-2069-4352-a2ee-7c853e27ad39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Shader">
+      <UniqueIdentifier>{89aa5993-f7d9-4156-b2b1-13ca8fc73fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Texture">
+      <UniqueIdentifier>{a17cf402-d55e-4084-903d-31b9b49a8c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Transform">
+      <UniqueIdentifier>{567e5a04-929a-4c2d-a567-bad6a1605e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02.GameObjects\OrthographicObject">
+      <UniqueIdentifier>{e4283bcc-8b14-492e-8a25-7f933379bfc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Terrain">
+      <UniqueIdentifier>{bd3b205b-a08a-4334-a6ea-364e5287611b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02.GameObjects\Camera">
+      <UniqueIdentifier>{cd93b2ca-3f54-4bf9-8447-daa81d5dfd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\04.PipeLine">
+      <UniqueIdentifier>{bf717a35-64f7-4bf9-b248-23b2377cadfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.System\02.Timer">
+      <UniqueIdentifier>{46dfb770-d271-452e-bf85-b4665bc478d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.System\02.Timer\Manager">
+      <UniqueIdentifier>{5d0a976d-644a-4dca-84b1-3554bcf27216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.System\01.Input">
+      <UniqueIdentifier>{e60f4c70-966c-4aa4-8490-ce2dcc6b3be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Cube">
+      <UniqueIdentifier>{6de9fdd5-8419-470c-8042-c3cf9d224818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\05.Picking">
+      <UniqueIdentifier>{e91aec13-867f-4878-ad29-6663e6933659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\06.Light">
+      <UniqueIdentifier>{d9e293aa-74d0-43a0-baca-8bb7f4c09b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\06.Light\Manager">
+      <UniqueIdentifier>{a373189d-7396-476c-bf34-dd0e4a532f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\98.ShaderFiles">
+      <UniqueIdentifier>{6db7ed90-386d-45f5-94d2-631cad5e6d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\07.Fonts">
+      <UniqueIdentifier>{0c231ae3-aa73-41b1-92f9-57d677b7eba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\07.Fonts\Manager">
+      <UniqueIdentifier>{3c4fad97-3f1a-4fec-bc1b-b385cae3e137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model">
+      <UniqueIdentifier>{1da3de9f-50d3-4e65-b49d-b3b270c4cc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model\Mesh">
+      <UniqueIdentifier>{51435836-528c-46b4-9e53-247ae771e4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model\Bone">
+      <UniqueIdentifier>{a94a0d24-fa57-4809-86a4-b12693e55f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model\Animation">
+      <UniqueIdentifier>{7bd9139d-0806-4469-9d16-4e529cb5c602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model\Animation\Channel">
+      <UniqueIdentifier>{9ecb9a69-b883-452f-b41d-0c2d4691cc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\PhysX">
+      <UniqueIdentifier>{07fea700-ead9-4eda-989d-3efa01e4d881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02.GameObjects\PartObject">
+      <UniqueIdentifier>{8fe67927-b577-4f22-8b4e-b07545967978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Instancing">
+      <UniqueIdentifier>{c73b9380-6a6a-4e15-9e78-54e27d9f473e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Instancing\Point">
+      <UniqueIdentifier>{5ebdebd4-0b3f-4dc7-8d3c-a3571975a126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\09.Physics">
+      <UniqueIdentifier>{5494524b-a225-41eb-992f-3eadd560bc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\10.Frustum">
+      <UniqueIdentifier>{fb7d2a88-ea39-4904-be19-6d080ccd31fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\09.Physics\PhysX">
+      <UniqueIdentifier>{8375f2dd-ecb7-465f-8fdf-1e08604ff7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Collider">
+      <UniqueIdentifier>{2978153f-5503-401c-8dfa-9319313535a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Collider\DebugDraw">
+      <UniqueIdentifier>{65484b13-7850-4cc4-8327-112d52bd90cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Collider\Collision_Manager">
+      <UniqueIdentifier>{5c201deb-e8f2-4c4c-9af0-2dc3dffe596e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\11.RenderTargets">
+      <UniqueIdentifier>{f33005ba-e773-4b4f-86c2-750f7a773314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\11.RenderTargets\Manager">
+      <UniqueIdentifier>{2c1793a5-729f-4411-b36c-ffd31eeb31c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Trail">
+      <UniqueIdentifier>{aa9d62f2-554c-4517-839c-3107b89a30e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\08.Sound">
+      <UniqueIdentifier>{36e3dac6-f318-41ea-b49a-2b79d1618caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Terrain\VIBuffer_Terrain_Dynamic">
+      <UniqueIdentifier>{b2115fba-c7c5-46be-8241-8c00eb49b841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model\Model">
+      <UniqueIdentifier>{1ea4898d-d524-4b65-9516-1e0d02e629d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model\VTFModels">
+      <UniqueIdentifier>{46c018cc-7737-4b6b-9dbd-d7a31dbabf38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model\VTFModels\PartModel">
+      <UniqueIdentifier>{dadcd713-8b54-4799-963a-11f13b77a3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model\VTFModels\RealtimeVTFModel">
+      <UniqueIdentifier>{812e93a8-3802-4801-880c-7da761e5b6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Model\VTFModels\PreCalVTFModel">
+      <UniqueIdentifier>{11b73b55-ac6b-447a-ae08-3f96ccbbd819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Shader\Effect_Shader">
+      <UniqueIdentifier>{2ffadf11-d5b1-4673-9e70-d2a22162e29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Shader\Compute_Shader">
+      <UniqueIdentifier>{08266119-acd4-4bd9-a6a0-fd3446caeb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\11.RenderTargets\Compute_RenderTarget">
+      <UniqueIdentifier>{cea93ec7-a65f-4910-9526-9324ce894f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Trail\Surface">
+      <UniqueIdentifier>{b69a5b91-5d90-4582-8c10-1a5f59f81a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Instancing\Mesh">
+      <UniqueIdentifier>{e655b4c4-18b0-4255-84ea-ce42ad2fefb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Rect\VIBuffer_Rect_LookZ">
+      <UniqueIdentifier>{c61c4e3e-ad68-479c-b1fe-0cdbf92da91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\Renderer\ShadowMap">
+      <UniqueIdentifier>{66bb5fb3-8b82-4728-bc08-989f1142870f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\12. Cascades">
+      <UniqueIdentifier>{d4f5830c-5036-47d1-add8-063e4091aab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\12. Cascades\Manager">
+      <UniqueIdentifier>{7a0a221a-a881-4b3c-8ab6-41b9ce1932fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03.Components\VIBuffer\Curve">
+      <UniqueIdentifier>{eb38c04f-f1e6-4935-839c-1b0accdb7d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\13.Video">
+      <UniqueIdentifier>{7883a1cc-13fd-45ae-acaa-e0252c30eb13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\Base.cpp">
+      <Filter>01.Utility\99.SuperClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\GameInstance.cpp">
+      <Filter>01.Utility\00.GameInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Timer.cpp">
+      <Filter>00.System\02.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Timer_Manager.cpp">
+      <Filter>00.System\02.Timer\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level.cpp">
+      <Filter>01.Utility\01.Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Manager.cpp">
+      <Filter>01.Utility\01.Levels\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Object_Manager.cpp">
+      <Filter>01.Utility\02.GameObjects\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Layer.cpp">
+      <Filter>01.Utility\02.GameObjects\Manager\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Component.cpp">
+      <Filter>01.Utility\03.Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Component_Manager.cpp">
+      <Filter>01.Utility\03.Components\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\GameObject.cpp">
+      <Filter>01.Utility\02.GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlendObject.cpp">
+      <Filter>01.Utility\02.GameObjects\BlendObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VIBuffer.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VIBuffer_Rect.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Texture.cpp">
+      <Filter>01.Utility\03.Components\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Transform.cpp">
+      <Filter>01.Utility\03.Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\OrthographicObject.cpp">
+      <Filter>01.Utility\02.GameObjects\OrthographicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VIBuffer_Terrain.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera.cpp">
+      <Filter>01.Utility\02.GameObjects\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PipeLine.cpp">
+      <Filter>01.Utility\04.PipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Input_Device.cpp">
+      <Filter>00.System\01.Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VIBuffer_Cube.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Picking.cpp">
+      <Filter>01.Utility\05.Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Light.cpp">
+      <Filter>01.Utility\06.Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Light_Manager.cpp">
+      <Filter>01.Utility\06.Light\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MyFont.cpp">
+      <Filter>01.Utility\07.Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Font_Manager.cpp">
+      <Filter>01.Utility\07.Fonts\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Model.cpp">
+      <Filter>01.Utility\03.Components\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Mesh.cpp">
+      <Filter>01.Utility\03.Components\Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Bone.cpp">
+      <Filter>01.Utility\03.Components\Model\Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Animation.cpp">
+      <Filter>01.Utility\03.Components\Model\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Channel.cpp">
+      <Filter>01.Utility\03.Components\Model\Animation\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VIBuffer_PhysX.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PartObject.cpp">
+      <Filter>01.Utility\02.GameObjects\PartObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VIBuffer_Instancing.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Engine_Struct.cpp">
+      <Filter>99,Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Instancing_Point.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Instancing\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Frustum.cpp">
+      <Filter>01.Utility\10.Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DebugDraw.cpp">
+      <Filter>01.Utility\03.Components\Collider\DebugDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PhysX_Manager.cpp">
+      <Filter>01.Utility\09.Physics\PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Collider.cpp">
+      <Filter>01.Utility\03.Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RenderTarget_Manager.cpp">
+      <Filter>01.Utility\11.RenderTargets\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Function.cpp">
+      <Filter>99,Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VIBuffer_Trail.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sound_Manager.cpp">
+      <Filter>01.Utility\08.Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Collision_Manager.cpp">
+      <Filter>01.Utility\03.Components\Collider\Collision_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Terrain_Dynamic.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Terrain\VIBuffer_Terrain_Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VTFModel.cpp">
+      <Filter>01.Utility\03.Components\Model\VTFModels\PreCalVTFModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Model.cpp">
+      <Filter>01.Utility\03.Components\Model\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RealtimeVTFModel.cpp">
+      <Filter>01.Utility\03.Components\Model\VTFModels\RealtimeVTFModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Part_Model.cpp">
+      <Filter>01.Utility\03.Components\Model\VTFModels\PartModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Renderer.cpp">
+      <Filter>01.Utility\03.Components\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RenderTarget.cpp">
+      <Filter>01.Utility\11.RenderTargets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Graphic_Device.cpp">
+      <Filter>00.System\00.Graphic_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Shader.cpp">
+      <Filter>01.Utility\03.Components\Shader\Effect_Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Compute_Shader.cpp">
+      <Filter>01.Utility\03.Components\Shader\Compute_Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Compute_RenderTarget.cpp">
+      <Filter>01.Utility\11.RenderTargets\Compute_RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Trail_Surface.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Trail\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Mesh_Instance.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Instancing\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Rect_LookZ.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Rect\VIBuffer_Rect_LookZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ShadowMap.cpp">
+      <Filter>01.Utility\03.Components\Renderer\ShadowMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cascade_Manager.cpp">
+      <Filter>01.Utility\12. Cascades\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cascade.cpp">
+      <Filter>01.Utility\12. Cascades</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Curve.cpp">
+      <Filter>01.Utility\03.Components\VIBuffer\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Video_Manager.cpp">
+      <Filter>01.Utility\13.Video</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Base.h">
+      <Filter>01.Utility\99.SuperClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Defines.h">
+      <Filter>99,Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Function.h">
+      <Filter>99,Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Macro.h">
+      <Filter>99,Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Struct.h">
+      <Filter>99,Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Typedef.h">
+      <Filter>99,Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\GameInstance.h">
+      <Filter>01.Utility\00.GameInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Timer.h">
+      <Filter>00.System\02.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Timer_Manager.h">
+      <Filter>00.System\02.Timer\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level.h">
+      <Filter>01.Utility\01.Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Manager.h">
+      <Filter>01.Utility\01.Levels\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Object_Manager.h">
+      <Filter>01.Utility\02.GameObjects\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Layer.h">
+      <Filter>01.Utility\02.GameObjects\Manager\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Component.h">
+      <Filter>01.Utility\03.Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Component_Manager.h">
+      <Filter>01.Utility\03.Components\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\GameObject.h">
+      <Filter>01.Utility\02.GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlendObject.h">
+      <Filter>01.Utility\02.GameObjects\BlendObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VIBuffer.h">
+      <Filter>01.Utility\03.Components\VIBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VIBuffer_Rect.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Texture.h">
+      <Filter>01.Utility\03.Components\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Transform.h">
+      <Filter>01.Utility\03.Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\OrthographicObject.h">
+      <Filter>01.Utility\02.GameObjects\OrthographicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VIBuffer_Terrain.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera.h">
+      <Filter>01.Utility\02.GameObjects\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PipeLine.h">
+      <Filter>01.Utility\04.PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Input_Device.h">
+      <Filter>00.System\01.Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VIBuffer_Cube.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Picking.h">
+      <Filter>01.Utility\05.Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Light.h">
+      <Filter>01.Utility\06.Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Light_Manager.h">
+      <Filter>01.Utility\06.Light\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MyFont.h">
+      <Filter>01.Utility\07.Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Font_Manager.h">
+      <Filter>01.Utility\07.Fonts\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Mesh.h">
+      <Filter>01.Utility\03.Components\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Bone.h">
+      <Filter>01.Utility\03.Components\Model\Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Animation.h">
+      <Filter>01.Utility\03.Components\Model\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VIBuffer_PhysX.h">
+      <Filter>01.Utility\03.Components\VIBuffer\PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PartObject.h">
+      <Filter>01.Utility\02.GameObjects\PartObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VIBuffer_Instancing.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Instancing_Point.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Instancing\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Frustum.h">
+      <Filter>01.Utility\10.Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DebugDraw.h">
+      <Filter>01.Utility\03.Components\Collider\DebugDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PhysX_Manager.h">
+      <Filter>01.Utility\09.Physics\PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Collider.h">
+      <Filter>01.Utility\03.Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RenderTarget_Manager.h">
+      <Filter>01.Utility\11.RenderTargets\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VIBuffer_Trail.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sound_Manager.h">
+      <Filter>01.Utility\08.Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Collision_Manager.h">
+      <Filter>01.Utility\03.Components\Collider\Collision_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Terrain_Dynamic.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Terrain\VIBuffer_Terrain_Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VTFModel.h">
+      <Filter>01.Utility\03.Components\Model\VTFModels\PreCalVTFModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Model.h">
+      <Filter>01.Utility\03.Components\Model\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RealtimeVTFModel.h">
+      <Filter>01.Utility\03.Components\Model\VTFModels\RealtimeVTFModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SimpleMath.h" />
+    <ClInclude Include="..\Public\Part_Model.h">
+      <Filter>01.Utility\03.Components\Model\VTFModels\PartModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Channel.h">
+      <Filter>01.Utility\03.Components\Model\Animation\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Renderer.h">
+      <Filter>01.Utility\03.Components\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Graphic_Device.h">
+      <Filter>00.System\00.Graphic_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RenderTarget.h">
+      <Filter>01.Utility\11.RenderTargets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Shader.h">
+      <Filter>01.Utility\03.Components\Shader\Effect_Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Compute_Shader.h">
+      <Filter>01.Utility\03.Components\Shader\Compute_Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Trail_Surface.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Trail\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Compute_RenderTarget.h">
+      <Filter>01.Utility\11.RenderTargets\Compute_RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Mesh_Instance.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Instancing\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Rect_LookZ.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Rect\VIBuffer_Rect_LookZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ShadowMap.h">
+      <Filter>01.Utility\03.Components\Renderer\ShadowMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cascade_Manager.h">
+      <Filter>01.Utility\12. Cascades\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cascade.h">
+      <Filter>01.Utility\12. Cascades</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Curve.h">
+      <Filter>01.Utility\03.Components\VIBuffer\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Video_Manager.h">
+      <Filter>01.Utility\13.Video</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Public\SimpleMath.inl" />
+    <None Include="..\Bin\ShaderFiles\Engine_Shader_Define.hlsli">
+      <Filter>01.Utility\98.ShaderFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxColor.hlsl">
+      <Filter>01.Utility\98.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Deferred.hlsl">
+      <Filter>01.Utility\98.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_AvgLum.hlsl">
+      <Filter>01.Utility\98.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_BlurTex.hlsl">
+      <Filter>01.Utility\98.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_ComputeParticle.hlsl">
+      <Filter>01.Utility\98.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Bin\ShaderFiles\Shader_DownScale.hlsl">
+      <Filter>01.Utility\98.ShaderFiles</Filter>
+    </Text>
+    <Text Include="..\Bin\ShaderFiles\Shader_Blur.hlsl">
+      <Filter>01.Utility\98.ShaderFiles</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
