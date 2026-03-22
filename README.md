@@ -1,58 +1,93 @@
-# ⚔️ C++ / DirectX 11 3D Action RPG (자체 엔진 및 툴 체인 구축)
+<div align="center">
+  <img src="https://dummyimage.com/800x300/2b2b2b/36bcf7&text=DirectX11+Action+RPG" alt="Project Banner">
+  <br/>
+  <br/>
 
-![Game Banner Placeholder](https://dummyimage.com/800x400/2b2b2b/ffffff&text=DirectX11+Action+RPG)
-> **"게임 플레이와 콘텐츠 제작 파이프라인을 함께 설계한 자체 엔진 프로젝트"**  
-> 단순 하드코딩 게임을 넘어, 런타임 엔진과 맵/컷신/이펙트/애니메이션 제작 툴 체인을 통합 구축한 대규모 3D 액션 RPG입니다.
+  <h1>⚔️ C++ / DirectX 11 3D Action RPG</h1>
+  <p>
+    <b>게임 플레이와 콘텐츠 제작 파이프라인을 함께 설계한 자체 엔진 프로젝트</b><br/>
+    단순 하드코딩을 넘어, 런타임 엔진과 맵/컷신/이펙트/애니메이션 제작 툴 체인을 통합 구축한 대규모 3D 액션 RPG입니다.
+  </p>
 
-<br>
+  <p>
+    <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+    <img src="https://img.shields.io/badge/DirectX%2011-000000?style=flat-square&logo=windows&logoColor=white"/>
+    <img src="https://img.shields.io/badge/HLSL-4B0082?style=flat-square&logo=visualstudio&logoColor=white"/>
+    <img src="https://img.shields.io/badge/PhysX-2496ED?style=flat-square"/>
+  </p>
+</div>
 
-## 🎮 프로젝트 개요
-* **개발 환경:** C++, DirectX 11, HLSL, Visual Studio
-* **주요 기술:** 디퍼드 렌더링(Deferred Rendering), MRT, PhysX, 자체 제작 툴 체인(Toolchain)
-* **프로젝트 규모:** 솔루션 내 7개 프로젝트 분리 설계 (코드 15만 줄, 텍스처/사운드 등 리소스 3,000개 이상)
-* **플랫폼:** PC (Windows)
+---
 
-<br>
+## 📊 Project Scale
+프로젝트의 규모와 자산 관리의 복잡성을 제어하기 위해 시스템을 모듈화했습니다.
 
-## ✨ 핵심 기능 및 기술적 성과 (Key Features & Tech Specs)
+| 구분 | 상세 내용 |
+| :--- | :--- |
+| **Architecture** | `Engine`, `Client`, `MapEditor`, `Effect_Editor`, `AnimTool`, `Shader_Editor`, `FBX_Converter` 총 7개 프로젝트 분리 |
+| **Code Base** | 총 748개 파일, 약 150,662 라인 (서드파티 제외) |
+| **Resources** | 텍스처 2,212개, 사운드 943개, 커스텀 메시 719개 등 대규모 에셋 운용 |
 
-기능 구현에 그치지 않고, 복잡한 파이프라인 제어와 **지속 가능한 콘텐츠 제작 구조(Data-driven)**를 만드는 것에 집중했습니다.
+<br/>
 
-### 1. 🛠️ 자체 엔진 아키텍처 및 제작 툴 체인 구축 (Engine & Toolchain)
-콘텐츠 작업이 코드 수정으로 이어지는 병목을 막기 위해 런타임과 에디터를 분리 설계했습니다.
-* **모듈화 및 데이터 연동:** `Engine DLL`을 중심으로 `Client` 및 5개의 전용 에디터(`MapEditor`, `Effect_Editor`, `AnimTool`, `Shader_Editor`, `FBX_Converter`)를 구축했습니다.
-* **일관된 객체 생성:** `Prototype + Layer` 구조를 도입해 런타임과 에디터 모두 동일한 방식으로 오브젝트를 생성하고 적재하도록 구성했습니다.
-* **생산성 극대화:** 맵 조형, FastPicking/Raycast 기반 오브젝트 배치, 컷신/이펙트 커브 편집 등을 데이터 직렬화로 처리하여 아티스트/기획의 반복 작업을 크게 줄였습니다.
+## ✨ Key Features
 
-### 2. 🎨 멀티패스 디퍼드 렌더링 및 후처리 파이프라인 (Deferred Rendering)
-패스 간 의존성이 꼬이는 문제를 막기 위해 렌더링 파이프라인을 구조적으로 분리하고 최적화했습니다.
-* **MRT 기반 렌더링:** `RenderTarget`과 `MRT`를 중앙에서 관리하고 지오메트리 패스와 라이트 패스를 분리했습니다.
-* **화면 품질 향상:** 평균 휘도 기반 Bloom, SSAO, FXAA, Motion Blur, Radial Blur, God Ray, Water Reflection/Refraction 등 폭넓은 후처리 파이프라인을 적용했습니다.
-* **렌더링 디버깅:** 디버그 렌더타겟 시각화 기능을 지원하여 복잡한 패스를 독립적으로 확인할 수 있는 디버깅 환경을 구축했습니다.
+### 1. 🛠️ 자체 엔진 아키텍처 및 전용 툴 체인 (Engine & Toolchain)
+콘텐츠 작업이 코드 수정으로 이어지는 병목 현상을 막기 위해 에디터를 직접 구축했습니다.
+- **데이터 기반 파이프라인:** 맵 조형, FastPicking 기반 배치, 이펙트 및 트리거 설정을 데이터 직렬화(`.dat`, `.effect`)로 처리하여 제작 생산성을 높였습니다.
+- **일관된 객체 생성:** `Prototype + Layer` 패턴을 도입해 런타임과 에디터 모두 동일한 방식으로 오브젝트를 생성하고 적재합니다.
 
-### 3. 🎥 전투 카메라 밎 조준 시스템 최적화 (Camera & Targeting)
-역동적인 전투 상황에서도 시점이 튀거나 조작감이 엇갈리지 않도록 시스템을 보완했습니다.
-* **상태 기반 카메라 보간:** 공격 줌, 피격 흔들림(Shake), 장애물 보정을 하나의 카메라 상태(State) 흐름으로 묶고 Lerp로 보간하여 시점 안정성을 높였습니다.
-* **장애물 클리핑 방지:** 카메라와 플레이어 사이에 Raycast를 쏴 장애물이 끼면 카메라를 앞으로 당겨 파고드는 현상을 해결했습니다.
-* **일관된 타게팅:** 락온 여부, 카메라 방향, 최근접 몬스터 탐색, UI 타게팅, 스킬 발사 방향을 하나의 기준으로 맞춰 원거리 액션 조작감을 크게 개선했습니다.
+### 2. 🎨 멀티패스 디퍼드 렌더링 (Deferred Rendering & Post-Processing)
+- **MRT 구조 설계:** `RenderTarget`과 `MRT`를 중앙에서 관리하여 지오메트리 패스와 라이트 패스를 완전히 분리했습니다.
+- **후처리 및 디버깅:** SSAO, Bloom, Motion Blur, God Ray 등 고급 후처리를 구현했으며, 각 패스의 의존성을 파악하기 위해 디버그 렌더타겟 시각화 툴을 제공합니다.
 
-### 4. ⚔️ 데이터 기반 연출 동기화 및 물리 시스템 분리 (Sync & Physics)
-액션 게임의 생명인 '정교한 타격감'과 '대규모 자산 관리'를 안정적으로 처리했습니다.
-* **애니메이션 연출 프레임 동기화:** 런타임(`RealtimeVTFModel`)과 툴(`AnimTool`)을 연동해, 코드 하드코딩 없이 특정 프레임 기반으로 이펙트/사운드 트리거가 자동 발동하도록 설계했습니다.
-* **목적별 시스템 레이어 분리:** 이동, 중력, 쿠킹 등 환경 제어는 `PhysX_Manager`가 전담하고 공격, 패링, 피격 상호작용은 `Collision_Manager`가 전담하도록 판정 레이어를 분리했습니다.
-* **비동기 로딩:** 로딩 전용 레벨과 `_beginthreadex` 기반 별도 스레드를 사용하여 대규모 리소스 진입 시 발생하는 프레임 프리징을 차단했습니다.
+### 3. ⚔️ 데이터 기반 연출 동기화 및 논리적 충돌 분리
+- **프레임 동기화 연출:** `RealtimeVTFModel`과 `AnimTool`을 연동해, 특정 애니메이션 프레임에 이펙트/사운드 트리거가 자동 발동하도록 설계했습니다.
+- **물리와 판정의 레이어 분리:** 이동과 환경 제어는 `PhysX_Manager`가, 전투 액션 판정(공격, 피격, 패링)은 `Collision_Manager`가 전담하도록 시스템 목적에 맞춰 분리했습니다.
 
-<br>
+<br/>
 
-## 📸 스크린샷 및 플레이 영상 (Gallery)
+## 🕵️‍♂️ Troubleshooting
 
-*(여기에 각 에디터 툴의 작동 모습과 실제 인게임 전투 영상을 GIF로 넣어주세요!)*
-* `[GIF 1: 자체 제작 MapEditor 및 AnimTool 작동 화면]`
-* `[GIF 2: 디퍼드 렌더링 후처리 적용 전/후 및 렌더타겟 디버깅 시각화]`
-* `[GIF 3: 흔들림 보정과 락온 기반의 원거리/근거리 전투 액션 씬]`
+> 💡 **제목을 클릭하면 상세한 문제 해결 과정을 확인할 수 있습니다.**
 
-<br>
+<details>
+<summary><b>1. 전투 카메라 시점 튐 및 장애물 클리핑 문제 해결</b></summary>
+<br/>
 
-## 💡 개발 회고 (Retrospective)
-이 프로젝트를 진행하며 단순히 '화면이 예쁜 게임'을 만드는 것을 넘어, **"복잡한 파이프라인을 구조적으로 관리하고, 지속적인 콘텐츠 생산이 가능한 프레임워크"**를 설계하는 방법을 배웠습니다. 
-특히 렌더링 패스가 늘어날 때 디버깅 환경을 구축해 낸 점과, 아티스트/기획의 반복 작업 비용을 줄이기 위해 전용 툴 체인을 분리한 경험은 '개발 생산성'의 중요성을 깊이 깨닫는 계기가 되었습니다. 기술 구현이 실제 게임 체감과 유지보수성에 어떻게 기여하는지를 배울 수 있었던 핵심 프로젝트입니다.
+- **문제:** 공격 줌, 피격 흔들림, 지형 충돌이 겹치며 전투 중 시야가 크게 튀는 현상 발생
+- **해결:** `CCamera_Main` 기준으로 상태를 분리하고, 진입 시 초기값 재설정 및 Lerp 보간 적용. 플레이어-카메라 간 Raycast를 쏴 장애물 감지 시 카메라를 전진시켜 벽을 파고드는 문제를 해결
+- **성과:** 전투 시점 안정화 및 타격감 가독성 향상
+</details>
+
+<details>
+<summary><b>2. 원거리 전투의 락온(Lock-on) 및 조준 일관성 확보</b></summary>
+<br/>
+
+- **문제:** 락온 여부에 따라 플레이어 회전, 활 발사 방향, UI 타겟 표시가 서로 엇갈려 조작감이 떨어짐
+- **해결:** 카메라 콜라이더 기반으로 `Get_Nearest_MonsterCollider`를 통해 최근접 타겟을 선정. 이후 플레이어 LookAt, UI 타겟 갱신, 화살 생성 로직이 모두 동일한 타겟(MonCollider)을 참조하도록 파이프라인 통일
+- **성과:** 수동 조준과 자동 보정 간의 어색함을 줄이고 일관된 조작감 제공
+</details>
+
+<details>
+<summary><b>3. 대규모 자산 로딩 시 프레임 프리징 병목 완화</b></summary>
+<br/>
+
+- **문제:** 수천 개의 텍스처, 메시, 데이터 파일이 한 프레임에 로드되며 초기 진입 및 레벨 전환 시 멈춤 현상 발생
+- **해결:** 로딩 전용 레벨과 `_beginthreadex` 기반의 별도 로딩 스레드를 구축하여, 레벨별 리소스를 비동기적으로 단계적 적재
+</details>
+
+<br/>
+
+## 📸 Play Gallery
+*인게임 전투 및 에디터 시연 영상을 확인해 보세요.*
+
+| Map & Anim Editor Toolchain | Deferred Rendering & Post-Processing |
+| :---: | :---: |
+| <img src="여기에_에디터_GIF_링크" width="100%"> | <img src="여기에_렌더링_GIF_링크" width="100%"> |
+| **데이터 기반 에셋 배치 및 프레임 트리거 저작** | **MRT 기반 후처리 및 디버그 렌더타겟 시각화** |
+
+<br/>
+
+## 💡 Retrospective
+이 프로젝트를 통해 단순히 게임 기능을 구현하는 것을 넘어, **"복잡한 파이프라인을 구조적으로 관리하고 지속 가능한 콘텐츠 생산 환경을 설계하는 법"**을 깊이 배웠습니다. 특히 렌더링 패스의 디버깅 환경을 구축하고, 수작업을 줄이기 위해 전용 에디터 5종을 분리 개발한 경험은 '개발 생산성'과 '데이터 주도 설계'의 중요성을 깨닫게 해준 소중한 자산이 되었습니다.
