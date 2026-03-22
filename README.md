@@ -80,13 +80,19 @@
 <br/>
 
 ## 📸 Play Gallery
-*인게임 전투 및 에디터 시연 영상을 확인해 보세요.*
+*실제 인게임 전투 및 플레이 영상입니다.*
 
-| Map & Anim Editor Toolchain | Deferred Rendering & Post-Processing |
-| :---: | :---: |
-| <img src="여기에_에디터_GIF_링크" width="100%"> | <img src="여기에_렌더링_GIF_링크" width="100%"> |
-| **데이터 기반 에셋 배치 및 프레임 트리거 저작** | **MRT 기반 후처리 및 디버그 렌더타겟 시각화** |
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b8adc805-910f-417f-8a45-c179eaeceeea" width="49%" alt="play footage 1" />
+  <img src="https://github.com/user-attachments/assets/f1182860-baa5-4007-85b9-e1db60c18d77" width="49%" alt="play footage 2" />
+  <br/><br/>
+  <img src="https://github.com/user-attachments/assets/4e886c8d-e3cc-49a6-bde1-93ced8746fb9" width="49%" alt="play footage 3" />
+  <img src="https://github.com/user-attachments/assets/08b4f5c9-f24c-450f-9072-a57fc47b5bae" width="49%" alt="play footage 4" />
+  <br/><br/>
+  <img src="https://github.com/user-attachments/assets/276f1a29-2e88-406f-bfef-333b3a5a51ab" width="80%" alt="play footage 5" />
+</div>
 
+<br/>
 <br/>
 
 ## 💡 Retrospective
