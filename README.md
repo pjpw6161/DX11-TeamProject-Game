@@ -14,6 +14,7 @@
     <img src="https://img.shields.io/badge/DirectX%2011-000000?style=flat-square&logo=windows&logoColor=white"/>
     <img src="https://img.shields.io/badge/HLSL-4B0082?style=flat-square&logo=visualstudio&logoColor=white"/>
     <img src="https://img.shields.io/badge/PhysX-2496ED?style=flat-square"/>
+    
   </p>
 </div>
 
@@ -89,7 +90,9 @@
   <img src="https://github.com/user-attachments/assets/4e886c8d-e3cc-49a6-bde1-93ced8746fb9" width="49%" alt="play footage 3" />
   <img src="https://github.com/user-attachments/assets/08b4f5c9-f24c-450f-9072-a57fc47b5bae" width="49%" alt="play footage 4" />
   <br/><br/>
-  <img src="https://github.com/user-attachments/assets/276f1a29-2e88-406f-bfef-333b3a5a51ab" width="80%" alt="play footage 5" />
+  <img src="https://github.com/user-attachments/assets/276f1a29-2e88-406f-bfef-333b3a5a51ab" width="49%" alt="play footage 5" />
+  <img src="https://github.com/user-attachments/assets/dbe08c3e-4a71-4729-a05d-eb41e9475de3" width="49%" alt="play footage 6" />
+
 </div>
 
 <br/>
